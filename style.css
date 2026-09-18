@@ -155,7 +155,7 @@ article time {
 }
 
 /* Decorative CSS illustration */
-.person {
+/*.person {
   position: absolute;
   left: 25%;
   top: 40px;
@@ -411,7 +411,7 @@ article time {
 .cloud:after { width: 42px; height: 25px; right: -4px; top: -20px; }
 .c1 { left: 5%; top: 150px; }
 .c2 { right: 5%; top: 210px; }
-.c3 { right: 18%; top: 90px; }
+.c3 { right: 18%; top: 90px; }*/
 
 .contact-section {
   max-width: 1290px;
