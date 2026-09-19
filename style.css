@@ -155,15 +155,24 @@ article time {
 }
 
 /* Decorative CSS illustration */
-/*.person {
+.skills{
   position: absolute;
-  left: 25%;
+  left: 100%;
+  top: 500px;
+  width: 260px;
+  height: 390px;
+}
+
+/* Decorative CSS illustration */
+.person {
+  position:	relative;
+  left: 100%;
   top: 40px;
   width: 260px;
   height: 390px;
 }
 
-.head {
+/*.head {
   position: absolute;
   z-index: 4;
   left: 62px;
@@ -533,7 +542,7 @@ footer {
   nav { gap: 20px; }
   .hero { padding: 35px 22px; }
   h1 { font-size: 42px; }
-  .details { grid-template-columns: 1fr; }
+  /*.details { grid-template-columns: 1fr; }*/
   .illustration { transform: scale(.78); transform-origin: top center; margin-bottom: -80px; }
   .contact-section { margin-bottom: 35px; flex-direction: column; align-items: flex-start; gap: 20px; }
   footer { flex-direction: column; gap: 15px; }
