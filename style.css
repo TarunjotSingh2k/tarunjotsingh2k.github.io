@@ -157,18 +157,18 @@ article time {
 /* Decorative CSS illustration */
 .skills{
   position: absolute;
-  left: 100%;
-  top: 500px;
-  width: 260px;
+  left: 60%;
+  top: 370px;
+  width: 300px;
   height: 390px;
 }
 
 /* Decorative CSS illustration */
 .person {
-  position:	relative;
-  left: 100%;
-  top: 40px;
-  width: 260px;
+  position:	absolute;
+  left: 120%;
+  top: 200px;
+  width: 290px;
   height: 390px;
 }
 
@@ -438,12 +438,12 @@ article time {
 .compact { min-height: 150px; }
 
 .button {
-  padding: 12px 23px;
+  padding: 12px 25px;
   border-radius: 25px;
   background: var(--accent);
   color: white;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 footer {
