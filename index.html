@@ -1,105 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Mobile App Developer</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tarunjot Singh — System Engineer</title>
+<meta name="description" content="Tarunjot Singh — System Engineer based in Dubai, UAE. Infrastructure, virtualization, cloud, and network operations specialist.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="navbar">
-    <a class="logo" href="#home">Portfoli<span>o</span></a>
-    <nav>
-      <a class="active" href="#home">Home</a>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">TS<span class="brand-dot">.</span></a>
+    <nav class="nav" aria-label="Primary">
       <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
       <a href="#contact">Contact</a>
     </nav>
-  </header>
+    <a class="nav-cta" href="mailto:singh.tarunjot2k@gmail.com">Get in touch</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-copy">
-        <h1>About <span>Me</span></h1>
-        <h2>I'am Tarunjot Singh, System Engineer<br>based in Dubai, UAE</h2>
+<main id="top">
 
-        <p class="intro">
-        System Engineer with nearly about 5 years of hands-on experience deploying, managing, and securing on
-        premises and Azure cloud infrastructure end-to-end. Strong background in server and virtualization administration, data center 
-        operations, network and firewall management, identity and access control, backup and disaster recovery, and day-to-day 
-        incident/problem/change management. Proven track record delivering and supporting large-scale enterprise and government IT 
-        environments, keeping systems secure, available, and running under pressure.
-        </p>
+  <!-- HERO BANNER -->
+  <div class="hero-banner">
+    <img class="hero-banner-img" src="images/hero.jpg" alt="Tarunjot Singh at a multi-monitor workstation showing system health, server status and network monitoring dashboards">
+  </div>
 
-        <div class="details">
-          <div class="experience">
-            <h3>Experience</h3>
-            <p class="muted">Lorem Ipsum is simply dummy text of the<br>printing and typesetting industry.</p>
-
-            <article>
-              <h4>System Engineer</h4>
-              <strong>2B Innovations, Dubai, UAE</strong>
-              <time>May 2025 – Present</time>
-            </article>
-			
-			<article>
-              <h4>Technical Support Engineer</h4>
-              <strong>2B Innovations, Dubai, UAE</strong>
-              <time>May 2023 – May 2025</time>
-            </article>
-			
-			<article>
-              <h4>Junior Engineer - Support</h4>
-              <strong>2B Innovations, Dubai, UAE</strong>
-              <time>Nov 2021 - May 2023</time>
-            </article>
-
-          <div class="skills">
-            <h3>What Skill I Have</h3>
-            <div class="skill-list">
-              <span>HyperV</span><span>Windows Servers</span><span>Linux</span><span>Microsoft Azure</span>
-              <span>Backup Manangement</span><span>Disaster Recovery</span><span>Computer Networks</span>
-              <span>Infrastructure Monitoring</span><span>Technical Support</span>
-            </div>
-          </div>
-		  <div class="person">
-            <img src="images/developer.png" alt="Developer">
-          </div>
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="status-line"><span class="status-dot" aria-hidden="true"></span>Available for new opportunities</p>
+      <h1>Tarunjot Singh</h1>
+      <p class="hero-role">System Engineer</p>
+      <p class="hero-summary">
+        I design, deploy and keep enterprise infrastructure running — on-premises and on Azure.
+        Close to five years spent on virtualization, networks, backup &amp; disaster recovery, and the
+        incident response that keeps systems available when it matters most.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:singh.tarunjot2k@gmail.com">Email me</a>
+        <a class="btn btn-primary" href="tel:+971567641995">Call me</a>
+      </div>
+      <dl class="hero-stats">
+        <div>
+          <dt>4.5+ yrs</dt>
+          <dd>Infrastructure &amp; support</dd>
         </div>
-      </div>
+        <div>
+          <dt>1</dt>
+          <dd>Enterprise employer, 3 promotions</dd>
+        </div>
+        <div>
+          <dt>Azure</dt>
+          <dd>Cloud &amp; hybrid environments</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
 
-      <!--<div class="illustration" aria-hidden="true">
-        <!--<div class="cloud c1"></div>
-        <div class="cloud c2"></div>
-        <div class="cloud c3"></div>     
-        <div class="cactus"><i></i><i></i><div class="pot"></div></div>
-        <div class="ground"></div>
-      </div>
-    </section>-->
+  <!-- ABOUT -->
+  <section id="about" class="section wrap">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about-body">
+      <p>
+        I'm a system engineer with close to five years of hands-on experience deploying, managing and
+        securing on-premises and Azure cloud infrastructure end to end. My background covers server and
+        virtualization administration, data center operations, network and firewall management, identity
+        and access control, and backup and disaster recovery.
+      </p>
+      <p>
+        Day to day, that means owning incident, problem and change management for large-scale enterprise
+        and government environments — keeping systems secure, available and stable under pressure, and
+        being the person teams can rely on when something needs fixing fast.
+      </p>
+    </div>
+  </section>
 
-    <section class="contact-section" id="about">
-      <div>
-        <h2>Let's build something great.</h2>
-        <p>Replace this section with your projects, services, or a short professional summary.</p>
-      </div>
-      <a class="button" href="#contact">Contact Me</a>
-    </section>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section wrap">
+    <div class="section-head">
+      <h2>Experience</h2>
+      <p class="section-note">One company, three roles — steady progression into full infrastructure ownership.</p>
+    </div>
 
-    <section class="contact-section compact" id="contact">
-      <div>
-        <h2>Contact</h2>
-        <p>singh.tarunjot2k@gmail.com · +971 56 764 1995</p>
-      </div>
-    </section>
-  </main>
+    <ol class="timeline">
+      <li class="timeline-item">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">May 2025 — Present</p>
+          <h3>System Engineer</h3>
+          <p class="timeline-org">2B Innovations, Dubai, UAE</p>
+          <p class="timeline-desc">
+            <!-- Add specific responsibilities/achievements for this role -->
+            End-to-end ownership of on-premises and Azure infrastructure: virtualization, backup and
+            disaster recovery, network and firewall administration, and identity and access management.
+          </p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">May 2023 — May 2025</p>
+          <h3>Technical Support Engineer</h3>
+          <p class="timeline-org">2B Innovations, Dubai, UAE</p>
+          <p class="timeline-desc">
+            <!-- Add specific responsibilities/achievements for this role -->
+            Handled day-to-day incident and problem management across enterprise and government
+            environments, escalating and resolving infrastructure issues under SLA pressure.
+          </p>
+        </div>
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-marker" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <p class="timeline-date">Nov 2021 — May 2023</p>
+          <h3>Junior Engineer, Support</h3>
+          <p class="timeline-org">2B Innovations, Dubai, UAE</p>
+          <p class="timeline-desc">
+            <!-- Add specific responsibilities/achievements for this role -->
+            Started in front-line technical support, building the foundation in server administration,
+            monitoring and customer-facing troubleshooting.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </section>
 
-  <footer>
-    <span>© 2026 TJSingh🌙 ·  ALL RIGHTS RESERVED.</span>
-    <div class="socials">
-      <a href="#" aria-label="LinkedIn">in</a>
+  <!-- SKILLS -->
+  <section id="skills" class="section wrap">
+    <div class="section-head">
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <p class="skill-label">Virtualization &amp; servers</p>
+        <ul>
+          <li>Hyper-V</li>
+          <li>Windows Server</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <p class="skill-label">Cloud &amp; continuity</p>
+        <ul>
+          <li>Microsoft Azure</li>
+          <li>Backup management</li>
+          <li>Disaster recovery</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <p class="skill-label">Network &amp; security</p>
+        <ul>
+          <li>Computer networks</li>
+          <li>Firewall management</li>
+          <li>Identity &amp; access control</li>
+          <li>Infrastructure monitoring</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <p class="skill-label">Operations &amp; support</p>
+        <ul>
+          <li>Incident management</li>
+          <li>Problem &amp; change management</li>
+          <li>Technical support</li>
+          <li>Data center operations</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK / ACHIEVEMENTS (placeholder — fill in with real projects) -->
+  <section id="work" class="section wrap">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p class="section-note">Add 2–3 concrete projects or achievements here — migrations, rollouts, incidents resolved at scale.</p>
+    </div>
+    <div class="work-grid">
+      <article class="work-card work-card--placeholder">
+        <p class="work-tag">Project title</p>
+        <p class="work-desc">Describe the project: what it was, your role, and the measurable outcome — e.g. "Migrated 40+ VMs to Azure with zero downtime."</p>
+      </article>
+      <article class="work-card work-card--placeholder">
+        <p class="work-tag">Project title</p>
+        <p class="work-desc">Describe the project: what it was, your role, and the measurable outcome.</p>
+      </article>
+      <article class="work-card work-card--placeholder">
+        <p class="work-tag">Project title</p>
+        <p class="work-desc">Describe the project: what it was, your role, and the measurable outcome.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDUCATION / CERTIFICATIONS (placeholder — fill in) -->
+  <section id="education" class="section wrap">
+    <div class="section-head">
+      <h2>Education &amp; certifications</h2>
+      <p class="section-note">Add your degree and any certifications (e.g. Microsoft Azure, CCNA, ITIL) here.</p>
+    </div>
+    <div class="cred-grid">
+      <div class="cred-card cred-card--placeholder">
+        <p class="cred-name">Certification or degree name</p>
+        <p class="cred-meta">Issuing body · Year</p>
+      </div>
+      <div class="cred-card cred-card--placeholder">
+        <p class="cred-name">Certification or degree name</p>
+        <p class="cred-meta">Issuing body · Year</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT 
+  <section id="contact" class="section wrap contact-section">
+    <div class="section-head">
+      <h2>Let's talk</h2>
+      <p class="section-note">Open to system engineer and IT infrastructure roles, and consulting on migrations, backup/DR and network security.</p>
+    </div>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:singh.tarunjot2k@gmail.com">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">singh.tarunjot2k@gmail.com</span>
+      </a>
+      <a class="contact-link" href="tel:+971567641995">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">+971 56 764 1995</span>
+      </a>
+      <a class="contact-link" href="www.linkedin.com/in/tarunjot-singh-2k" data-placeholder="linkedin">
+        <span class="contact-label">LinkedIn</span>
+        <span class="contact-value">Add your profile link</span>
+      </a>
+    </div>
+  </section>-->
+
+</main>
+
+<footer class="site-footer">
+    <!--<span>© 2026 TJSingh🌙 ·  ALL RIGHTS RESERVED.</span>-->
+  <div class="wrap footer-inner">
+    <p>© <span id="year"></span> Tarunjot Singh 🌙 </p>
+	<div class="socials">
+      <a href="www.linkedin.com/in/tarunjot-singh-2k" aria-label="LinkedIn">in</a>
       <a href="#" aria-label="GitHub">⌘</a>
-      <a href="#" aria-label="Google Plus">g+</a>
+      <a href="www.medium.com/@tarunjotsingh2k" aria-label="Medium">Me</a>
       <a href="#" aria-label="Twitter">♥</a>
     </div>
-  </footer>
+    <!--<p class="footer-loc"><img src="images/LIn.png" alt="linkedin"></p>-->
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
