@@ -53,8 +53,6 @@ I've worked on infrastructure environments involving:
 This GitHub profile is where I share:
 
 - Infrastructure & system administration projects
-- PowerShell and Bash scripts
-- Azure automation
 - Networking and security labs
 - Monitoring & troubleshooting tools
 - Infrastructure documentation
