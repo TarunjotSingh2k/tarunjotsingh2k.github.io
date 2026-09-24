@@ -3,8 +3,6 @@ From Private to Public: How NAT Bridges Your Network to the Internet
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*HA8LD18e9n9H2-4d45oKPw.png)
 
-[Reference](https://medium.com/@tarunjotsingh2k/from-private-to-public-how-nat-bridges-your-network-to-the-internet-60e7f74c8b2c?source=your_stories_outbox---writer_outbox_published-------------------------------------------)
-
 by [TarunjotSingh2k](https://medium.com/@tarunjotsingh2k?source=post_page---byline--60e7f74c8b2c-----------------------------------------)
 
 
@@ -71,19 +69,22 @@ Step 1: Create an Internal Virtual Switch
 
 ```
 New-VMSwitch -SwitchName "NATSwitch" -SwitchType Internal
-```![captionless image](https://miro.medium.com/v2/resize:fit:1248/format:webp/1*64QNHA0jwiTpQINXEOIDcA.png)
+```
+![captionless image](https://miro.medium.com/v2/resize:fit:1248/format:webp/1*64QNHA0jwiTpQINXEOIDcA.png)
 
 Step 2: Assign an IP to the Virtual Switch
 
 ```
 New-NetIPAddress -IPAddress 192.168.100.1 -PrefixLength 24 -InterfaceAlias "vEthernet (NATSwitch)"
-```![captionless image](https://miro.medium.com/v2/resize:fit:1248/format:webp/1*rAGkze0qclxDe43ixmOebw.png)
+```
+![captionless image](https://miro.medium.com/v2/resize:fit:1248/format:webp/1*rAGkze0qclxDe43ixmOebw.png)
 
 Step 3: Create the NAT Network
 
 ```
 New-NetNat -Name "NATNetwork" -InternalIPInterfaceAddressPrefix 192.168.100.0/24
-```![captionless image](https://miro.medium.com/v2/resize:fit:1248/format:webp/1*eGi1ovpdfhwcW7Y0EPQy5g.png)
+```
+![captionless image](https://miro.medium.com/v2/resize:fit:1248/format:webp/1*eGi1ovpdfhwcW7Y0EPQy5g.png)
 
 Step 4: Configure VM IP Settings
 
