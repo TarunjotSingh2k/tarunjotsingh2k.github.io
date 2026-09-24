@@ -30,6 +30,8 @@ Let’s build a simple architecture where multiple websites share one public IP,
 Architecture
 ------------
 
+<img width="1400" height="933" alt="image" src="https://github.com/user-attachments/assets/d0f7c4e7-2e8f-45e5-b1fa-e9a13ecce998" />
+
 
 Installation Steps
 ------------------
