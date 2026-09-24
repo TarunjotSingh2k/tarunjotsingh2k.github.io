@@ -1,21 +1,9 @@
-[Nginx Proxy](https://medium.com/tag/nginx-proxy?source=post_page---header_tags--34b9b6382bde-----------------------------------------)
-
-[Nginx](https://medium.com/tag/nginx?source=post_page---header_tags--34b9b6382bde-----------------------------------------)
-
-[System Administration](https://medium.com/tag/system-administration?source=post_page---header_tags--34b9b6382bde-----------------------------------------)
-
-[Web Hosting](https://medium.com/tag/web-hosting?source=post_page---header_tags--34b9b6382bde-----------------------------------------)
-
-[Server Management](https://medium.com/tag/server-management?source=post_page---header_tags--34b9b6382bde-----------------------------------------)
-
 Hosting Multiple Websites Behind a Single Public IP
 ===================================================
 
 ![captionless image](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*sm3eonWRXd3-KmMeweMdGw.png)
 
-[Reference](https://medium.com/@tarunjotsingh2k/hosting-multiple-websites-behind-a-single-public-ip-34b9b6382bde?sharedUserId=tarunjotsingh2k)
 
-by [TarunjotSingh2k](https://medium.com/@tarunjotsingh2k?source=post_page---byline--34b9b6382bde-----------------------------------------)
 
 
 
@@ -29,8 +17,6 @@ Let’s build a simple architecture where multiple websites share one public IP,
 
 Architecture
 ------------
-
-<img width="1400" height="933" alt="image" src="https://github.com/user-attachments/assets/d0f7c4e7-2e8f-45e5-b1fa-e9a13ecce998" />
 
 
 Installation Steps
